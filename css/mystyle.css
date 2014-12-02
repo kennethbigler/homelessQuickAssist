@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	text-align: center;
+	text-shadow: 1px 1px #888;
+	color: #252EFF;
+}
+
+li {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 52px;
+}
+h5 {
+	font-size: 50px;
+	margin-bottom: 0;
+}
+h1 {
+	font-size: 60px;
+}
+
+section {
+	position: relative;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: white;
+}
+
+section img {
+	width:100%;
+	max-width: 369px;
+	display:block;
+	margin:auto;
+	cursor:pointer;
+	cursor:hand;
+}
+
+div.highlight {
+	background-color: #C4C5D4;
+	padding-left: .625em;
+	padding-right: .625em;
+	padding-top: .001em;
+	padding-bottom: .001em;
+	border-radius: .625em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: .625em;
+	margin-right: .625em;
+	-moz-box-shadow: .0625em .3125em .625em #888;
+	-webkit-box-shadow: .0625em .3125em .625em #888;
+	box-shadow: .0625em .3125em .625em #888;
+}
+
+div.foofooter{
+	position: relative;
+	height: 151px;
+}
+
+div.footicon {
+	position: fixed;
+	right: .5em;
+	bottom: 2em;
+}
+
+footer {
+	position: fixed;
+	height: 2em;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	background-color: #252EFF;
+}
+
+footer p {
+	margin: 0;
+	color: white;
+}
+
+/* Colors:
+	Ryan Blue: #252EFF;
+	Light Blue: #C4C5D4;
+*/
